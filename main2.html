@@ -1,0 +1,161 @@
+<html lang="ko" style="--vh: 8.44px; scroll-behavior: smooth">
+    <head>
+        <style>
+            .img-h-size {
+                width: 60px !important;
+                height: 125px;
+                max-width: 110px;
+                object-fit: initial;
+                position: absolute;
+                top: -60%;
+                right: 30px;
+                transform: translate(0, 50%);
+            }
+        </style>
+
+        <!-- rev6043 -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>서민금융진흥원 앱 메인</title>
+
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/to-be/app.css?v=20250717163410702" />
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/slick_custom.css?v=20250717163410702" />
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/kinfa.css?v=20250717163410702" />
+
+        <link type="text/css" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/tot_new/common.css?v=20250717163410702" rel="stylesheet" />
+        <link type="text/css" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/tot_new/jquery-ui-1.12.1.css?v=20250717163410702" rel="stylesheet" />
+        <link type="text/css" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/tot_new/slick-1.5.8.css?v=20250717163410702" rel="stylesheet" />
+        <link type="text/css" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/tot_new/slick-theme-1.5.8.css?v=20250717163410702" rel="stylesheet" />
+
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/main/tot/swiper-bundle.min.css?v=20250717163410702" />
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/css/tot_new/main/app.css?v=20250717163410702" />
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/tot_new/css/tot.css" />
+        <link rel="stylesheet" href="https://mmc.kinfa.or.kr/tot_new/css/main/index_tot.css" />
+        <link rel="stylesheet" href="https://rl9mnsqm6.toastcdn.net/mmc_v2/tot/css/main/tot.css?v=20250717163410702" />
+    </head>
+
+    <body style="" cz-shortcut-listen="true">
+        <div class="wrapper page-sub main" data-active="true">
+            <div id="header" class="page-header" style="transition: 350ms">
+                <!-- <span class="header-title">잇다 소개</span> -->
+                <!-- <a href="#n" class="close-button func-prev">이전</a> -->
+                <!-- <a href="#c" class="close-button func-cancle">취소</a> -->
+                <div class="header-wrapper">
+                    <div class="header">
+                        <div class="header-inner content-container">
+                            <a href="/view/main" class="logo"><img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/img_header_logo.svg?v=20250717163410702" alt="서민금융진흥원" /></a>
+                            <div class="header-units">
+                                <ul class="header-units-list" data-hover="list">
+                                    <li>
+                                        <a href="javascript:void(0)" id="btnSearch">
+                                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/search/search.svg" alt="" />
+                                        </a>
+                                    </li>
+                                    <li class="user" data-hover="item">
+                                        <a href="javascript:openChat();">
+                                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/search/help-icon.svg" alt="" />
+                                        </a>
+                                        <!-- <div class="switchBox">
+                                        <input type="checkbox" id="switch" />
+                                        <label name="" for="switch">쉬운</label>
+                                    </div>  -->
+                                    </li>
+                                    <li>
+                                        <!-- 로그인 -->
+
+                                        <!-- 로그아웃 -->
+
+                                        <a href="/login" class="users">
+                                            <span>로그인</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="page-content" class="page-content" style="min-height: 804px">
+                <main id="main" data-inmotion="container">
+                    <img src="images/02_new_main.jpg" alt="" style="margin-top: 68px" />
+                </main>
+            </div>
+
+            <footer id="footer" style="z-index: 9994">
+                <ul class="content-container">
+                    <li id="mainBtn">
+                        <a href="/view/main" title="홈 버튼" class="active">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_01_off.svg?v=20250717163410702" alt="홈 아이콘" />
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_01_on.svg?v=20250717163410702" alt="홈 선택 아이콘" />
+                            <p>홈</p>
+                        </a>
+                    </li>
+                    <li id="mainFinancialBtn">
+                        <a href="/view/mainFinancial" title="상품/서비스 버튼">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_02_off.svg?v=20250717163410704" alt="상품/서비스 아이콘" />
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_02_on.svg?v=20250717163410704" alt="상품/서비스 선택 아이콘" />
+                            <p>상품/서비스</p>
+                        </a>
+                    </li>
+                    <li id="mainApplicationBtn" class="w58">
+                        <a href="/view/mainApplication" title="신청내역 버튼">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_03_off.svg?v=20250717163410704" alt="신청내역 아이콘" style="width: 6.42vw" />
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_03_on.svg?v=20250717163410704" alt="신청내역 선택 아이콘" style="width: 6.42vw" />
+                            <p>신청내역</p>
+                        </a>
+                    </li>
+                    <li id="customerBtn">
+                        <a href="#" title="고객센터 버튼">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_04_off.svg?v=20250717163410704" alt="고객센터 아이콘" />
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_04_on.svg?v=20250717163410704" alt="고객센터 선택 아이콘" />
+                            <p>고객센터</p>
+                        </a>
+                    </li>
+                    <li id="mainMenuBtn" class="w58">
+                        <a href="/view/mainMenu" title="전체메뉴 버튼">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_05_off.svg?v=20250717163410704" alt="전체메뉴 아이콘" />
+                            <img
+                                src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/main/menu_05_on.svg?v=20250717163410704"
+                                alt="전체메뉴 선택 아이콘"
+                                style="width: 7.2vw; margin: -0.5vw 0px -0.3rem"
+                            />
+                            <p>전체메뉴</p>
+                        </a>
+                    </li>
+                </ul>
+                <a href="#!" class="lineBtn" title="">
+                    <div></div>
+                </a>
+            </footer>
+
+            <div id="customer_center" class="modalPopup dim default dnone">
+                <div class="popup">
+                    <div class="top">
+                        <h3>고객센터</h3>
+                        <!-- <a href="#!" id="cancel-btn" class="btn" alt="취소 버튼">취소</a> -->
+                        <img id="cancel-btn" src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/menu/icon_close.svg?v=20250717163410704" alt="닫기 버튼 아이콘" />
+                    </div>
+                    <div class="middle">
+                        <a onclick="window.open('https://chat.kinfa.or.kr:443?CHANNEL=APP', '_blank')" title="상담원 채팅" class="box box-add box-add1">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/menu/icon_chat_yx3.png?v=20250717163410704" alt="상담원 채팅" />
+                            <p>1:1<br />채팅상담</p>
+                        </a>
+                        <a href="#" id="openChat" title="챗봇 상담" class="box">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/menu/1.png?v=20250717163410704" style="width: 80%; max-width: 27px" alt="챗봇 상담 아이콘" />
+                            <p>챗봇<br />상담</p>
+                        </a>
+                        <a href="#" id="1397Call" title="1397 콜센터" class="box">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/menu/2.svg?v=20250717163410704" alt="1397 콜센터 아이콘" />
+                            <p>1397<br />콜센터</p>
+                        </a>
+                        <a href="/view/sms/KFA_SMS_00000100" title="불법사금융 신고" class="box">
+                            <img src="https://rl9mnsqm6.toastcdn.net/mmc_v2/images/menu/3.svg?v=20250717163410704" alt="불법사금융 신고" />
+                            <p>불법사금융<br />신고</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
